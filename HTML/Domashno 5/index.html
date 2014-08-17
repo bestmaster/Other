@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>ДОМАШНО 7</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denislav Radoslavov" />
+    <link rel="stylesheet" type="text/css" href="newcss.css" />
+</head>
+<body>
+    
+    <table>
+        <tr class="row">
+            <td>Име</td>
+            <td>
+                <input id="name" type="text" name="Име" placeholder="Светлин" >
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Фамилия</td>
+            <td>
+                <input id="famely" type="text" name="Фамилия" placeholder="Наков" >
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Адрес</td>
+            <td>
+                <input id="adres" type="text" name="Адрес" placeholder="ул.'Христо Ботев' 17, ет.3, ап.12">
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Град</td>
+            <td>
+                <input id="City" type="text" name="Град" placeholder="Каспичан" >
+                <input id="State" type="text" name="Област" placeholder="Област" >
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Пощенски код</td>
+            <td>
+                <input id="Post" type="text" name="Пощенски код" placeholder="9325" >
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Държава</td>
+            <td>
+                <select id="Country">
+                    <option>България</option>
+                    <option>Румъния</option>
+                    <option>Сърбия</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Код, префикс и номер</td>
+            <td>
+                <input id="tel" type="tel" placeholder="+359" required name="true">
+                <input id="tel1" type="tel" placeholder="88" required name="true">
+                <input id="tel2" type="tel" placeholder="8334343" required name="true">
+            </td>
+        </tr>
+        <tr class="row">
+            <td>E-mail</td>
+            <td>
+                <input id="email" type="email" required name="true" pattern="[^ @]*@[^ @].[^ @]" placeholder="nakov@kaspichan.org">
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Дата на раждане</td>
+            <td>
+                <input id="date" type="tel" placeholder="01" required name="true">
+                <input id="date1" type="tel" placeholder="01" required name="true">
+                <input id="date2" type="tel" placeholder="1970" required name="true">
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Пол</td>
+            <td>
+                <select id="sex">
+                    <option>Мъж</option>
+                    <option>Жена</option>
+                    <option>Азис</option>
+                </select>
+            </td>
+         </tr>
+        <tr class="row">
+            <td>Дата на включване</td>
+            <td>Пролет 2014
+                <input id="radio" type="radio" name="Season" value="Spring">
+                Лято 2014
+                <input id="radio1" type="radio" name="Season" value="Summer">
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Коментари</td>
+            <td>
+                <textarea cols="30" rows="10" id="Coments" placeholder="please send me for information about the lodging"></textarea>
+            </td>
+        </tr>
+        <tr class="row">
+            <td class="row1" colspan="2">
+                <input id="submit" type="submit" value="Изпрати">
+                <input id="reset" type="reset" name="RST Button" value="Изчисти">
+            </td>
+        </tr>
+    </table>
+   
+</body>
+</html>

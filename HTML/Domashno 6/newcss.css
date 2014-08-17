@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+td {
+    border: solid 2px;
+}
+
+.row {
+    
+}
+
+.row1 {
+    background-color: #8CA7BA;
+    text-align: left;
+}
+
+.row2 {
+    background-color: #8CA7BA;
+    text-align: left;
+}
+
+#id {
+    width: 40px;
+}
+
+#name {
+    width: 150px;
+}
+
+#unit {
+    width: 60px;
+}
+
+#quantity {
+    width: 70px;
+}
+
+#stock {
+    width: 60px;
+}
+
+#discount {
+    width: 80px;
+    margin-left: -30px;
+}
+
+#col1 {
+    width: 80px;
+}
+
+#col2 {
+    width: 200px;
+}
+
+#col3 {
+    width: 90px;
+}
+
+#col4 {
+    width: 120px;
+}
+
+#col5 {
+    width: 150px;
+}
+
+#col6 {
+    width: 90px;
+}
+
+.header {
+    background-color: #8CA7BA;
+    text-align: left;
+}
+
+.last {
+    float: right;
+    margin-top: 5px;
+}
+

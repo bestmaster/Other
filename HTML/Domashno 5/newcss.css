@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #336699;
+}
+
+.row {
+    background-color: #cccccc;
+    height: 30px;
+}
+
+.row1 {
+    background-color: #336699;
+}
+
+table {
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#name {
+    width: 260px;
+}
+
+#famely {
+    width: 260px;
+}
+
+#adres {
+    width: 260px;
+}
+
+#City {
+    width: 150px;
+}
+
+#State {
+    width: 100px;
+}
+
+#Post {
+    width: 130px;
+}
+
+#Country {
+    width: 135px;
+}
+
+#tel {
+    width: 45px;
+}
+
+#tel1 {
+    width: 45px;
+}
+
+#tel2 {
+    width: 150px;
+}
+
+#email {
+    width: 260px;
+}
+
+#date {
+    width: 25px;
+}
+
+#date1 {
+    width: 25px;
+}
+
+#date2 {
+    width: 60px;
+}
+
+#sex {
+    width: 65px;
+}
+
+#radio {
+    width: 40px;
+}
+
+#radio1 {
+    width: 40px;
+}
+
+#submit {
+    width: 80px;
+    margin-left: 110px;
+}
+
+#reset {
+    width: 80px;
+    margin-left: 40px;
+}
